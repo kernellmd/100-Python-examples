@@ -7,5 +7,5 @@ IDE: Visual Studio 2017
 
 **如果大家有好的意见和建议，欢迎fork并修改!**
 
-![image](/2.jpeg)
+![image](MyProjects/MyImages/natural_scenery1.jpg)
 
