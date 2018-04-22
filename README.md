@@ -7,5 +7,5 @@ IDE: Visual Studio 2017
 
 **如果大家有好的意见和建议，欢迎fork并修改!**
 
-![image](/kernellmd/MyProjects/MyImages/natural_scenery1.jpg)
+![image](https://github.com/kernellmd/MyProjects/blob/master/MyImages/natural_scenery1.jpg)
 
