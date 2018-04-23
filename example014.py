@@ -6,3 +6,25 @@
 (3)如果n不能被k整除，则用k+1作为k的值,重复执行第一步。
 """
 
+def decomp(n):
+    L = []
+    for i in range(2,n+1):  #(n+1)还有优化空间，ceil(sqrt(n))+1
+        while n != i:
+            if n % i == 0:
+                L.append(i)
+                n = n // i
+            else:
+                break
+    L.append(n) #注意不要丢掉最后的n
+    return L
+
+if __name__ == '__main__':
+    n = int(input('input number:'))
+    result = decomp(n)
+    #print(result)
+    print('%d=' %(n), end='')
+    for idx, var in enumerate(result):
+        if idx != (len(result) - 1):
+            print('%d*' %(var), end='')
+        else:
+            print('%d' %(var))
