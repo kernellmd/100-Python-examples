@@ -7,7 +7,7 @@
 '''
 datetime模块以面向对象的形式对很多使用功能进行了封装，
 比起time模块更加好用，time模块具有的功能在datetime
-模块下都有实现，只是直接使用繁琐一点
+模块下都有实现
 '''
 
 from datetime import *
