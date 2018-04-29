@@ -7,6 +7,8 @@
 # -*- coding: utf-8 -*-
 
 #原始程序
+import string
+
 def is_chinese(uchar):
     if uchar >= u'\u4E00' and uchar <= u'\u9FA5':
         return True
@@ -32,7 +34,7 @@ def statistics(s):
             letter_cn += 1
         elif c.isdigit():
             numeric += 1
-        elif c == u'\u0020':
+        elif c == u'\u0020':    #此处可以改用string的函数isspace()更简单
             space += 1
         else:
             others += 1
