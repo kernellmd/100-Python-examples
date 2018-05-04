@@ -11,4 +11,5 @@
 """
 
 #原始程序
-
+for i in range(10):
+    print(i)
