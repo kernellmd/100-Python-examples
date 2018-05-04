@@ -11,5 +11,14 @@
 """
 
 #原始程序
-for i in range(10):
-    print(i)
+def sum_peach(rest, day):
+    day -= 1
+    while day:
+        rest += 1
+        rest *= 2
+        day -= 1
+    return rest
+
+if __name__ == '__main__':
+    rest = sum_peach(1, 10)
+    print(rest)
