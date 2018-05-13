@@ -86,16 +86,17 @@ def UseStyle(string, mode = '', fore = '', back = ''):
 
     style = '\033[%sm' %(style if style else '')
 
-    end   = '\033[%sm' %(STYLE['default']['end'] if style else '')
+    end = '\033[m'
+#    end   = '\033[%sm' %(STYLE['default']['end'] if style else '')
 
     return '%s%s%s' % (style, string, end)
 
 
 
-def TestColor( ):
+def TestColor():
 
     print(UseStyle('正常显示'))
-    print('')
+    print()
 
     print("测试显示模式")
     print(UseStyle('高亮',   mode = 'bold'),)
@@ -103,7 +104,7 @@ def TestColor( ):
     print(UseStyle('闪烁',   mode = 'blink'),)
     print(UseStyle('反白',   mode = 'invert'),)
     print(UseStyle('不可见', mode = 'hide'))
-    print('')
+    print()
 
 
     print("测试前景色")
@@ -115,7 +116,7 @@ def TestColor( ):
     print(UseStyle('紫红色', fore = 'purple'),)
     print(UseStyle('青蓝色', fore = 'cyan'),)
     print(UseStyle('白色',   fore = 'white'))
-    print('')
+    print()
 
 
     print("测试背景色")
@@ -127,6 +128,6 @@ def TestColor( ):
     print(UseStyle('紫红色', back = 'purple'),)
     print(UseStyle('青蓝色', back = 'cyan'),)
     print(UseStyle('白色',   back = 'white'))
-    print('')
+    print()
 if __name__ == '__main__':
     TestColor()
