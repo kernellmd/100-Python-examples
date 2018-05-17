@@ -219,3 +219,4 @@ from numpy import hsplit
 print("simply split:")
 print(vsplit(arr_partiton, 3))
 print(hsplit(arr_partiton, 2))
+#使用copy函数可以直接进行深拷贝
