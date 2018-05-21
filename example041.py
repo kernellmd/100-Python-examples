@@ -5,7 +5,7 @@
 题目描述：学习static定义静态变量的用法
 """
 
-#python没有static关键字，可以用类变量做某种程度的实现
+#python没有static关键字，可以用函数本地变量做某种程度的实现
 def varfunc():
     var = 0
     print('var = %d' % var)
