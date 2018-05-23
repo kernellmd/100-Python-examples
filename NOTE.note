@@ -1,0 +1,8 @@
+#对于负数来说：
+#源码  >>  -1  >>  取反  >>  补码
+#补码  >>  取反  >>  +1  >>  源码
+
+~ x
+Returns the complement of x - the number you get by switching each 1 for a 0 and each 0 for a 1. This is the same as -x - 1.
+#可以理解为:x与-x加和为-1
+https://wiki.python.org/moin/BitwiseOperators
