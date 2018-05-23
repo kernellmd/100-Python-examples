@@ -7,5 +7,7 @@ IDE: Visual Studio 2017
 
 **如果大家有好的意见和建议，欢迎fork并修改!**
 
+*有些题目出的实在太烂了，甚至完全是错误的！所以暂时空缺，以后遇到好的题目会加以替换。*
+
 ![image](https://github.com/kernellmd/MyProjects/blob/master/MyImages/natural_scenery1.jpg)
 
